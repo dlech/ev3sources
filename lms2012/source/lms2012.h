@@ -306,8 +306,33 @@ char      *HwId = "03";
 
 #define   ERROR_BUFFER_SIZE     8                     //!< Number of errors in buffer
 
+#define		PWM_IOCTL_ID					10										//!< ID number used for ioctls
 #define   PWM_DEVICE            "lms_pwm"             //!< PWM device name
 #define   PWM_DEVICE_NAME       "/dev/lms_pwm"        //!< PWM device file name
+#define 	PWM_IOCTL_RESET_A			_IO(PWM_IOCTL_ID, 0)
+#define 	PWM_IOCTL_RESET_B			_IO(PWM_IOCTL_ID, 1)
+#define 	PWM_IOCTL_RESET_C			_IO(PWM_IOCTL_ID, 2)
+#define 	PWM_IOCTL_RESET_D			_IO(PWM_IOCTL_ID, 3)
+#define 	PWM_IOCTL_START_A			_IO(PWM_IOCTL_ID, 4)
+#define 	PWM_IOCTL_START_B			_IO(PWM_IOCTL_ID, 5)
+#define 	PWM_IOCTL_START_C			_IO(PWM_IOCTL_ID, 6)
+#define 	PWM_IOCTL_START_D			_IO(PWM_IOCTL_ID, 7)
+#define 	PWM_IOCTL_STOP_BR_A		_IO(PWM_IOCTL_ID, 8)
+#define 	PWM_IOCTL_STOP_BR_B		_IO(PWM_IOCTL_ID, 9)
+#define 	PWM_IOCTL_STOP_BR_C		_IO(PWM_IOCTL_ID, 10)
+#define 	PWM_IOCTL_STOP_BR_D		_IO(PWM_IOCTL_ID, 11)
+#define 	PWM_IOCTL_STOP_FL_A		_IO(PWM_IOCTL_ID, 12)
+#define 	PWM_IOCTL_STOP_FL_B		_IO(PWM_IOCTL_ID, 13)
+#define 	PWM_IOCTL_STOP_FL_C		_IO(PWM_IOCTL_ID, 14)
+#define 	PWM_IOCTL_STOP_FL_D		_IO(PWM_IOCTL_ID, 15)
+#define 	PWM_IOCTL_READ_ENC_A	_IOW(PWM_IOCTL_ID, 16,SLONG*)
+#define 	PWM_IOCTL_READ_ENC_B	_IOW(PWM_IOCTL_ID, 17,SLONG*)
+#define 	PWM_IOCTL_READ_ENC_C	_IOW(PWM_IOCTL_ID, 18,SLONG*)
+#define 	PWM_IOCTL_READ_ENC_D	_IOW(PWM_IOCTL_ID, 19,SLONG*)
+#define 	PWM_IOCTL_WRITE_PWM_A	_IOR(PWM_IOCTL_ID, 20,SLONG*)
+#define 	PWM_IOCTL_WRITE_PWM_B	_IOR(PWM_IOCTL_ID, 21,SLONG*)
+#define 	PWM_IOCTL_WRITE_PWM_C	_IOR(PWM_IOCTL_ID, 22,SLONG*)
+#define 	PWM_IOCTL_WRITE_PWM_D	_IOR(PWM_IOCTL_ID, 23,SLONG*)
 
 #define   MOTOR_DEVICE          "lms_motor"           //!< TACHO device name
 #define   MOTOR_DEVICE_NAME     "/dev/lms_motor"      //!< TACHO device file name

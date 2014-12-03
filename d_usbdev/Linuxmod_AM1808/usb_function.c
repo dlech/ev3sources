@@ -127,7 +127,7 @@ static struct usb_endpoint_descriptor rudolf_in_hs_desc = {
   .bEndpointAddress           =     USB_DIR_IN,
   .bmAttributes               =     USB_ENDPOINT_XFER_INT,
   .wMaxPacketSize             =     cpu_to_le16(1024),
-  .bInterval                  =     4, /* Calculated as :
+  .bInterval                  =     1, /* Calculated as :
                                         * 2^(value-1) * 125uS
                                         * i.e. value 1: 2^(1-1) * 125 uSec = 125 uSec
                                         *      -     4: 2^(4-1) * 125 uSec = 1 mSec
@@ -140,7 +140,7 @@ static struct usb_endpoint_descriptor rudolf_out_hs_desc = {
   .bEndpointAddress           =     USB_DIR_OUT,
   .bmAttributes               =     USB_ENDPOINT_XFER_INT,
   .wMaxPacketSize             =     cpu_to_le16(1024),
-  .bInterval                  =     4,  /* Calculated as :
+  .bInterval                  =     1,  /* Calculated as :
                                          * 2^(value-1) * 125uS
                                          * i.e. value 1: 2^(1-1) * 125 uSec = 125 uSec
                                          *      -     4: 2^(4-1) * 125 uSec = 1 mSec

@@ -305,6 +305,7 @@ IV.   Remember the voltage on pin 1 when connected to an input port
 #endif
 
 #define   HW_ID_SUPPORT
+//#define		DEBUG_D_ANALOG
 
 #include  "../../lms2012/source/lms2012.h"
 #include  "../../lms2012/source/am1808.h"

@@ -1,0 +1,67 @@
+*** Installation ***
+
+>> Dependences: sudo apt-get install build-essential libusb-1.0-0-dev
+
+>> To build and install the ev314 firmware:
+   * Go into the "install" folder
+   * Type "make all".
+   * Note: if you are running a 64bits system, be sure that the 32bits libraries are installed. On Debian, run "sudo dpkg --add-architecture i386" and "sudo apt-get install ia32-libs".
+
+>> With this firmware you can use Wifi Dongles based on Realtek's RTL8188CUS chipset like:
+   * The Edimax EW-7811Un
+   * The TP-Link TL-WN723N
+
+>> To configure WAP2 access:
+   * Go into the install/fs/etc directory
+   * Edit as root the wpa_supplicant.conf file (sudo nano wpa_supplicant.conf)
+   * In the follwing fields input the SSID of your hotspot and the password in clear text:
+
+network={
+        ssid="Your SSID goes here"
+        psk="The password in clear text"
+        key_mgmt=WPA-PSK
+        proto=RSN
+        group=CCMP
+}
+
+   * Save and reboot the EV3 with a Wifi dongle plugged in.
+
+>> To log into your EV3 with telnet:
+   * Issue the command: telnet <IP address of the EV3>
+   * You will get this greeting form the EV3:
+
+Trying <IP address>...
+Connected <IP address>.
+Escape character is '^]'.
+
+ _____       _     _ ___
+|  _  |_ _ _| |___| | __|
+|    _| | | . | . | | _|
+|__|__|___|___|___|_|_|
+
+Rudolf 2011.01 EV3
+
+login:
+
+   * Log in as "root". At the password prompt simply hit [ENTER].
+   * If you want to configure a password for the root account, type "passwd".
+   
+>> To activate ssh:
+   * On the EV3 prompt type "/etc/init.d/dropbear start"
+   * After that, you will be able to scp file on the EV3 with scp <my_file> root@<IP address of the EV3>:<directory>
+   
+*** Usage ***
+
+>> Buttons:
+   * Enter button: toogles the release/brake mode for the motors.
+   * Exit button: halts the system
+
+>> LEDs:
+   * Motors in brake mode:
+	   - Static green: watchdog activated.
+     - Blinking green: watchdog deactivated. USB remote control active (at least 3.3 packets per second).
+   * Motors in floating mode:
+     - Static orange: watchdog activated.
+     - Blinking orange: watchdog deactivated. USB remote control active (at least 3.3 packets per second).
+   * Pulsing orange: battery level under warning level (~30 minutes remaining before critical).
+   * Pulsing red: battery level under critical level (~20 minutes remaining before halt).

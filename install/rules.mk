@@ -2,9 +2,7 @@
 # ARCH defines
 #
 
-ifeq ($(ARCH),X86)
-CROSS_COMPILE =
-else ifeq ($(ARCH),AM1808)
+ifeq ($(ARCH),AM1808)
 CROSS_COMPILE = arm-none-linux-gnueabi-
 else
 $(error unknown ARCH)
@@ -21,26 +19,14 @@ BASE = ../..
 OBJS = $(SOURCES:%.c=%.o)
 DEPS = $(OBJS:%.o=%.d)
 
-INCLUDES += -I$(BASE)/lms2012/source \
-	   -I$(BASE)/c_com/source \
-	   -I$(BASE)/c_input/source \
-	   -I$(BASE)/c_memory/source \
-	   -I$(BASE)/c_output/source \
-	   -I$(BASE)/c_sound/source \
-	   -I$(BASE)/c_ui/source
+INCLUDES += -I$(BASE)/lms2012/source
 
-ifeq ($(ARCH),X86)
-DBUS_CFLAGS := $(shell pkg-config dbus-1 --cflags)
-CFLAGS += -DLinux_X86 $(INCLUDES) $(DBUS_CFLAGS) -O0 -g3 -Wall -fPIC
-LDFLAGS += -L$(BASE)/lms2012/Linux_$(ARCH)/sys/lib
-else
-DEVKIT = $(BASE)/../extra/linux-devkit/arm-none-linux-gnueabi
+DEVKIT = $(BASE)/extra/linux-devkit/arm-none-linux-gnueabi
 INCLUDES += -I$(DEVKIT)/usr/include/dbus-1.0
 INCLUDES += -I$(DEVKIT)/usr/lib/dbus-1.0/include
 INCLUDES += -I$(DEVKIT)/usr/include
 CFLAGS += -DPCASM $(INCLUDES) -O0 -Wall -fPIC
-LDFLAGS += -L$(BASE)/lms2012/Linux_$(ARCH)/sys/lib -L$(DEVKIT)/usr/lib
-endif
+LDFLAGS += -L$(BASE)/ev314/Linux_$(ARCH)/sys/lib -L$(DEVKIT)/usr/lib
 
 ifeq ($(CONF),Linuxlib)
 LDFLAGS += -shared
@@ -50,7 +36,7 @@ INSTALL_DIR = sys
 VPATH = sys/lib
 endif
 
-INSTALL_TARGET = $(BASE)/lms2012/Linux_$(ARCH)/$(INSTALL_DIR)/$(TARGET)
+INSTALL_TARGET = $(BASE)/ev314/Linux_$(ARCH)/$(INSTALL_DIR)/$(TARGET)
 
 all: install
 
@@ -88,16 +74,12 @@ ifeq ($(CONF),Linuxmod)
 
 BASE = ../..
 
-ifeq ($(ARCH),X86)
-KDIR ?= /lib/modules/`uname -r`/build
-else
-KDIR ?= $(BASE)/../extra/linux-03.20.00.13
+KDIR ?= $(BASE)/extra/linux-03.20.00.13
 KERNEL_MAKEFLAGS = ARCH=arm CROSS_COMPILE=$(CROSS_COMPILE)
 PREPARE = kernel.prepare
-endif
 
 INSTALL_DIR = sys/mod
-INSTALL_TARGET = $(BASE)/lms2012/Linux_$(ARCH)/$(INSTALL_DIR)/$(TARGET)
+INSTALL_TARGET = $(BASE)/ev314/Linux_$(ARCH)/$(INSTALL_DIR)/$(TARGET)
 
 all: install
 
@@ -105,7 +87,7 @@ $(TARGET): $(PREPARE)
 	$(MAKE) $(KERNEL_MAKEFLAGS) -C $(KDIR) M=$$PWD
 
 kernel.prepare:
-	$(MAKE) -C $(BASE)/open_first kernel.prepare
+	$(MAKE) -C $(BASE)/install kernel.prepare
 
 install: $(INSTALL_TARGET)
 $(INSTALL_TARGET): $(TARGET)
@@ -125,9 +107,8 @@ endif
 # Automagic PATH configuration.
 #
 
-PATH_CHECK = $(BASE)/open_first/.path-check
-PATH_CHECK_TRY = /usr/local/codesourcery/arm-2009q1/bin \
-		 /usr/local/arm-2009q1/bin \
+PATH_CHECK = $(BASE)/install/.path-check
+PATH_CHECK_TRY = $(BASE)/CodeSourcery/Sourcery_G++_Lite/bin \
 		 $(HOME)/CodeSourcery/Sourcery_G++_Lite/bin
 
 $(PATH_CHECK):
@@ -141,7 +122,8 @@ $(PATH_CHECK):
 			echo "##################" >&2; \
 			echo >&2; \
 		else \
-			echo 'export PATH := '$$found':$$(PATH)' > $@; \
+			cur_dir=`pwd`;cd "$$found";found_dir=`pwd`;cd "$$cur_dir"; \
+			echo 'export PATH := '$$found_dir':$$(PATH)' > $@; \
 		fi; \
 	else \
 		touch $@; \
@@ -149,7 +131,7 @@ $(PATH_CHECK):
 
 -include $(PATH_CHECK)
 
-MKIMAGE_CHECK = $(BASE)/open_first/.mkimage-check
+MKIMAGE_CHECK = $(BASE)/install/.mkimage-check
 
 $(MKIMAGE_CHECK):
 	@if ! which mkimage > /dev/null; then \

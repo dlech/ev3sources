@@ -1,0 +1,3557 @@
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448     2015999      955776   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Attention : identifiant de table de partitions GPT (GUID) détecté sur « /dev/sdb » ! L'utilitaire sfdisk ne prend pas GPT en charge. Utilisez GNU Parted.
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 500.1 Go, 500107859968 octets
+255 têtes, 63 secteurs/piste, 60801 cylindres, total 976773164 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1               1   976773163   488386581+  ee  GPT
+
+Commande (m pour l'aide): Partition sélectionnée 1
+
+Commande (m pour l'aide): 1 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): Aucune partition n'est définie pour l'instant !
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 500.1 Go, 500107859968 octets
+255 têtes, 63 secteurs/piste, 60801 cylindres, total 976773164 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-976773163, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-976773163, par défaut 976773163): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-976773163, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-976773163, par défaut 976773163): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 500.1 Go, 500107859968 octets
+255 têtes, 63 secteurs/piste, 60801 cylindres, total 976773164 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448     2015999      955776   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7733247, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7733247, par défaut 7733247): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7733247, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7733247, par défaut 7733247): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7733247, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7733247, par défaut 7733247): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7733247, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7733247, par défaut 7733247): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdb : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdb1            2048      104447       51200    b  W95 FAT32
+/dev/sdb2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7733247, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7733247, par défaut 7733247): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7733247, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7733247, par défaut 7733247): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7733247, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7733247, par défaut 7733247): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7733247, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7733247, par défaut 7733247): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7733247, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7733247, par défaut 7733247): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7733247, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7733247, par défaut 7733247): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7733247, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7733247, par défaut 7733247): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7733247, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7733247, par défaut 7733247): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7733247, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7733247, par défaut 7733247): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7733247, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7733247, par défaut 7733247): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7733247, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7733247, par défaut 7733247): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7733247, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7733247, par défaut 7733247): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7733247, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7733247, par défaut 7733247): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7733247, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7733247, par défaut 7733247): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7733247, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7733247, par défaut 7733247): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7733247, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7733247, par défaut 7733247): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3959 Mo, 3959422976 octets
+122 têtes, 62 secteurs/piste, 1022 cylindres, total 7733248 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x84f1960f
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): Numéro de partition (1-4): 
+Commande (m pour l'aide): Partition sélectionnée 2
+
+Commande (m pour l'aide): 2 : commande inconnue
+Commande d'action
+   a   basculer l'indicateur d'amorçage
+   b   éditer l'étiquette BSD du disque
+   c   basculer l'indicateur de compatibilité DOS
+   d   supprimer la partition
+   l   lister les types de partitions connues
+   m   afficher ce menu
+   n   ajouter une nouvelle partition
+   o   créer une nouvelle table vide de partitions DOS
+   p   afficher la table de partitions
+   q   quitter sans enregistrer les changements
+   s   créer une nouvelle étiquette vide pour disque de type Sun
+   t   modifier l'identifiant de système de fichiers d'une partition
+   u   modifier les unités d'affichage/saisie
+   v   vérifier la table de partitions
+   w   écrire la table sur le disque et quitter
+   x   fonctions avancées (pour experts seulement)
+
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (0 primaire(s), 0 étendue(s), 4 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 1): Premier secteur (2048-7774207, par défaut 2048): Utilisation de la valeur par défaut 2048
+Dernier secteur, +secteurs or +taille{K,M,G} (2048-7774207, par défaut 7774207): 
+Commande (m pour l'aide): Partition sélectionnée 1
+Code Hexa (taper L pour lister les codes): Type système de partition modifié de 1 à b (W95 FAT32)
+
+Commande (m pour l'aide): Type de partition :
+   p   primaire (1 primaire(s), 0 étendue(s), 3 libre(s))
+  e   étendue
+Sélection (p par défaut) : Numéro de partition (1-4, par défaut 2): Premier secteur (104448-7774207, par défaut 104448): Utilisation de la valeur par défaut 104448
+Dernier secteur, +secteurs or +taille{K,M,G} (104448-7774207, par défaut 7774207): 
+Commande (m pour l'aide): 
+Disque /dev/sdc : 3980 Mo, 3980394496 octets
+123 têtes, 62 secteurs/piste, 1019 cylindres, total 7774208 secteurs
+Unités = secteurs de 1 * 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Identifiant de disque : 0x00000000
+
+Périphérique Amorce  Début        Fin      Blocs     Id  Système
+/dev/sdc1            2048      104447       51200    b  W95 FAT32
+/dev/sdc2          104448      514047      204800   83  Linux
+
+Commande (m pour l'aide): La table de partitions a été altérée.
+
+Appel de ioctl() pour relire la table de partitions.
+
+Attention : si vous avez créé ou modifié une partition DOS 6.x,
+veuillez consulter les pages du manuel de fdisk pour des informations
+complémentaires.
+Synchronisation des disques.
+mkfs.msdos 3.0.13 (30 Jun 2012)
+mke2fs 1.42.5 (29-Jul-2012)
+Étiquette de système de fichiers=LMS2012_EXT
+Type de système d'exploitation : Linux
+Taille de bloc=1024 (log=0)
+Taille de fragment=1024 (log=0)
+« Stride » = 0 blocs, « Stripe width » = 0 blocs
+51200 i-noeuds, 204800 blocs
+10240 blocs (5.00%) réservés pour le super utilisateur
+Premier bloc de données=1
+Nombre maximum de blocs du système de fichiers=67371008
+25 groupes de blocs
+8192 blocs par groupe, 8192 fragments par groupe
+2048 i-noeuds par groupe
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Écriture des tables d'i-noeuds :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
+

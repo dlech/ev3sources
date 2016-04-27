@@ -115,6 +115,7 @@ int												ev314_motor_fd = 0;							// Motor control file descriptor
 int												ev314_encoder_fd = 0;						// Encoder data file descriptor
 int												ev314_ui_fd = 0;								// Control panel file descriptor
 int												ev314_analog_fd = 0;						// Analog inputs file descriptor
+int												ev314_DCM_fd = 0;								// DCM access file descriptor
 int												ev314_usb_fd = 0;								// USB device file descriptor
 																													// USB buffer
 unsigned char							ev314_usb_buf[EV314_MAX_USB_BUF_SIZE];
@@ -1236,8 +1237,9 @@ void* ev314_thread_LP( )	{
 }
 	
 int main( void )	{
-	int 		ret;
+	int 		i, ret;
 	DATA8		buf[EV314_LCD_NB_CHAR_X+1];
+	char    Buf[INPUTS];
 	int			id_fd = 0;
 	
 	/* Initialize state strucure */
@@ -1320,12 +1322,19 @@ int main( void )	{
 		exit( -7 );
 	}
 	
+	/* Initializing DCM input access */
+	
+	if( ( ev314_DCM_fd = open( DCM_DEVICE_NAME, O_RDWR | O_SYNC ) ) == -1 )	{
+		fprintf( stderr, "** Error %d during DCM access initialization.\n", ev314_DCM_fd );
+		exit( -8 );
+	}	
+	
 	/* Initialize motor access */
 	
 	ev314_motor_fd = open( PWM_DEVICE_NAME, O_WRONLY | O_SYNC );
 	if ( ev314_motor_fd < 0 )	{
 		fprintf( stderr, "** Error %d during motor initialization.\n", ev314_motor_fd );
-		exit( -8 );
+		exit( -9 );
 	}
 	
 	/* Initialize encoder access */
@@ -1333,14 +1342,14 @@ int main( void )	{
 	ev314_encoder_fd = open( MOTOR_DEVICE_NAME, O_RDWR | O_SYNC );  
 	if ( ev314_encoder_fd < 0 )	{
 		fprintf( stderr, "** Error %d during encoder initialization.\n", ev314_encoder_fd );
-		exit( -9 );
+		exit( -10 );
 	}
 	
 	ev314_motor_data = (MOTORDATA*)mmap( 0, sizeof(MOTORDATA) * vmOUTPUTS, PROT_READ | PROT_WRITE, MAP_FILE | MAP_SHARED, ev314_encoder_fd, 0 );
 	if ( ev314_motor_data == MAP_FAILED )
 	{
 		fprintf( stderr, "** Mapping failed during encoder initialization.\n" );
-		exit( -10 );
+		exit( -11 );
 	}
 	
 	/* Resetting encoders */
@@ -1350,7 +1359,7 @@ int main( void )	{
 				( ev314_reset_encoder( EV314_MOTOR_PORT_C ) ) ||
 				( ev314_reset_encoder( EV314_MOTOR_PORT_D ) ) )	{
 		fprintf( stderr, "** Error while resetting encoders.\n" );
-		exit( -11 );
+		exit( -12 );
 	}
 	
 	/* Setting motor voltage to 0 */
@@ -1360,7 +1369,7 @@ int main( void )	{
 				( ev314_motor_voltage( EV314_MOTOR_PORT_C, 0 ) ) ||
 				( ev314_motor_voltage( EV314_MOTOR_PORT_D, 0 ) ) )	{
 		fprintf( stderr, "** Error while setting motor voltage.\n" );
-		exit( -12 );
+		exit( -13 );
 	}
 	
 	/* Stopping motors, breaking mode */
@@ -1370,8 +1379,15 @@ int main( void )	{
 				( ev314_motor_stop( EV314_MOTOR_PORT_C, EV314_MOTOR_BRAKE ) ) ||
 				( ev314_motor_stop( EV314_MOTOR_PORT_D, EV314_MOTOR_BRAKE ) ) )	{
 		fprintf( stderr, "** Error while stopping motors.\n" );
-		exit( -13 );
+		exit( -14 );
 	}
+	
+	/* Set PIN5 of all imputs in high level mode */
+	
+	for ( i = 0; i < INPUTS; i++ )
+		Buf[i] = EV314_NXT_REFLECT;
+		
+	write( ev314_DCM_fd, Buf, INPUTS );
 	
 	/* Starting threads */
 	
@@ -1395,7 +1411,7 @@ int main( void )	{
 				( ev314_motor_voltage( EV314_MOTOR_PORT_C, 0 ) ) ||
 				( ev314_motor_voltage( EV314_MOTOR_PORT_D, 0 ) ) )	{
 		fprintf( stderr, "** Error while setting motor voltage.\n" );
-		exit( -14 );
+		exit( -15 );
 	}
 	
 	/* Stopping motors */
@@ -1405,7 +1421,7 @@ int main( void )	{
 				( ev314_motor_stop( EV314_MOTOR_PORT_C, EV314_MOTOR_FLOAT ) ) ||
 				( ev314_motor_stop( EV314_MOTOR_PORT_D, EV314_MOTOR_FLOAT ) ) )	{
 		fprintf( stderr, "** Error while stopping motors.\n" );
-		exit( -15 );
+		exit( -16 );
 	}
 	
 	/* Closing encoder access */
@@ -1425,6 +1441,13 @@ int main( void )	{
 	if ( ev314_motor_fd )	{
 		close( ev314_motor_fd );
 		ev314_motor_fd = 0;
+	}
+	
+	/* Closing access to DCM */
+	
+	if ( ev314_DCM_fd )	{
+		close( ev314_DCM_fd );
+		ev314_DCM_fd = 0;
 	}
 	
 	/* Closing access to analog sensors */
@@ -1483,7 +1506,7 @@ int main( void )	{
 	ret = system( "halt" );
 	if ( ret < 0 )	{
 		fprintf( stderr, "** Error while trying to shutdown system.\n" );
-		exit( -16 );
+		exit( -17 );
 	}
 	#endif
 	

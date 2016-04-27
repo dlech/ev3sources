@@ -2,10 +2,12 @@
 
 >> Dependences: sudo apt-get install build-essential libusb-1.0-0-dev
 
+>> On a 64 bits system : 
+   sudo dpkg --add-architecture i386;sudo apt-get install libc6:i386 (Debian Jessie)
+
 >> To build and install the ev314 firmware:
    * Go into the "install" folder
    * Type "make all".
-   * Note: if you are running a 64bits system, be sure that the 32bits libraries are installed. On Debian, run "sudo dpkg --add-architecture i386" and "sudo apt-get install ia32-libs".
 
 >> With this firmware you can use Wifi Dongles based on Realtek's RTL8188CUS chipset like:
    * The Edimax EW-7811Un

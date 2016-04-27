@@ -17,7 +17,7 @@ else
 fi
 echo "> Warning, all data will be erased on "${drive} "!"
 echo "> Please verify that the disk below is the one you want to flash."
-/sbin/fdisk -l |grep /dev/${drive}
+sudo /sbin/fdisk -l |grep /dev/${drive}
 echo -n "> Press [ENTER] to continue or [CTRL-C] to abort..."
 read
 

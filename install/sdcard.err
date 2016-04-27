@@ -3555,3 +3555,247 @@ Création du journal (4096 blocs) : complété
 Écriture des superblocs et de l'information de comptabilité du système de
 fichiers :  0/25 1/25 2/25 3/25 4/25 5/25 6/25 7/25 8/25 9/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/25     complété
 
+
+Bienvenue dans fdisk (util-linux 2.25.2).
+Les modifications resteront en mémoire jusqu'à écriture.
+Soyez prudent avant d'utiliser la commande d'écriture.
+
+
+Commande (m pour l'aide) : Disque /dev/sdb : 3,7 GiB, 3980394496 octets, 7774208 secteurs
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Type d'étiquette de disque : dos
+Identifiant de disque : 0x00000000
+
+Device     Boot Start     End Sectors  Size Id Type
+/dev/sdb1        8192 7774207 7766016  3,7G  b W95 FAT32
+
+
+Commande (m pour l'aide) : Partition 1 sélectionnée
+La partition 1 a été supprimée.
+
+Commande (m pour l'aide) : 1 : commande inconnue
+
+Commande (m pour l'aide) : Aucune partition n'est définie pour l'instant.
+Impossible de supprimer la partition 1
+
+Commande (m pour l'aide) : 2 : commande inconnue
+
+Commande (m pour l'aide) : 
+Disque /dev/sdb : 3,7 GiB, 3980394496 octets, 7774208 secteurs
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Type d'étiquette de disque : dos
+Identifiant de disque : 0x00000000
+
+
+
+Commande (m pour l'aide) : Type de partition
+   p   primaire (0 primaire, 0 étendue, 4 libre)
+   e   étendue (conteneur pour partitions logiques)
+Sélectionnez (p par défaut) : Numéro de partition (1-4, 1 par défaut) : Premier secteur (2048-7774207, 2048 par défaut) : Dernier secteur, +secteurs ou +taille{K,M,G,T,P} (2048-7774207, 7774207 par défaut) : 
+Une nouvelle partition 1 de type « Linux » et de taille 50 MiB a été créée.
+
+Commande (m pour l'aide) : Partition 1 sélectionnée
+Code Hexa (taper L pour afficher tous les codes) :Si vous avez créé ou modifié une partition DOS 6.x, veuillez consulter la documentation de fdisk pour de plus amples renseignements.
+Type de partition « Linux » modifié en « W95 FAT32 ».
+
+Commande (m pour l'aide) : Type de partition
+   p   primaire (1 primaire, 0 étendue, 3 libre)
+   e   étendue (conteneur pour partitions logiques)
+Sélectionnez (p par défaut) : Numéro de partition (2-4, 2 par défaut) : Premier secteur (104448-7774207, 104448 par défaut) : Dernier secteur, +secteurs ou +taille{K,M,G,T,P} (104448-7774207, 7774207 par défaut) : 
+Une nouvelle partition 2 de type « Linux » et de taille 200 MiB a été créée.
+
+Commande (m pour l'aide) : Disque /dev/sdb : 3,7 GiB, 3980394496 octets, 7774208 secteurs
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Type d'étiquette de disque : dos
+Identifiant de disque : 0x00000000
+
+Device     Boot  Start    End Sectors  Size Id Type
+/dev/sdb1         2048 104447  102400   50M  b W95 FAT32
+/dev/sdb2       104448 514047  409600  200M 83 Linux
+
+
+Commande (m pour l'aide) : La table de partitions a été altérée.
+Appel d'ioctl() pour relire la table de partitions.
+Synchronisation des disques.
+
+mkfs.fat 3.0.27 (2014-11-12)
+mke2fs 1.42.12 (29-Aug-2014)
+En train de créer un système de fichiers avec 204800 1k blocs et 51200 i-noeuds.
+UUID de système de fichiers=5878d482-dbcb-4598-a910-5b094319b52f
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25     complété                        
+Écriture des tables d'i-noeuds :  0/2521/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25     complété
+
+
+Bienvenue dans fdisk (util-linux 2.25.2).
+Les modifications resteront en mémoire jusqu'à écriture.
+Soyez prudent avant d'utiliser la commande d'écriture.
+
+
+Commande (m pour l'aide) : Disque /dev/sdb : 3,7 GiB, 3980394496 octets, 7774208 secteurs
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Type d'étiquette de disque : dos
+Identifiant de disque : 0x00000000
+
+Device     Boot  Start    End Sectors  Size Id Type
+/dev/sdb1         2048 104447  102400   50M  b W95 FAT32
+/dev/sdb2       104448 514047  409600  200M 83 Linux
+
+
+Commande (m pour l'aide) : Numéro de partition (1,2, 2 par défaut) : 
+La partition 1 a été supprimée.
+
+Commande (m pour l'aide) : Partition 2 sélectionnée
+La partition 2 a été supprimée.
+
+Commande (m pour l'aide) : 2 : commande inconnue
+
+Commande (m pour l'aide) : 
+Disque /dev/sdb : 3,7 GiB, 3980394496 octets, 7774208 secteurs
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Type d'étiquette de disque : dos
+Identifiant de disque : 0x00000000
+
+
+
+Commande (m pour l'aide) : Type de partition
+   p   primaire (0 primaire, 0 étendue, 4 libre)
+   e   étendue (conteneur pour partitions logiques)
+Sélectionnez (p par défaut) : Numéro de partition (1-4, 1 par défaut) : Premier secteur (2048-7774207, 2048 par défaut) : Dernier secteur, +secteurs ou +taille{K,M,G,T,P} (2048-7774207, 7774207 par défaut) : 
+Une nouvelle partition 1 de type « Linux » et de taille 50 MiB a été créée.
+
+Commande (m pour l'aide) : Partition 1 sélectionnée
+Code Hexa (taper L pour afficher tous les codes) :Si vous avez créé ou modifié une partition DOS 6.x, veuillez consulter la documentation de fdisk pour de plus amples renseignements.
+Type de partition « Linux » modifié en « W95 FAT32 ».
+
+Commande (m pour l'aide) : Type de partition
+   p   primaire (1 primaire, 0 étendue, 3 libre)
+   e   étendue (conteneur pour partitions logiques)
+Sélectionnez (p par défaut) : Numéro de partition (2-4, 2 par défaut) : Premier secteur (104448-7774207, 104448 par défaut) : Dernier secteur, +secteurs ou +taille{K,M,G,T,P} (104448-7774207, 7774207 par défaut) : 
+Une nouvelle partition 2 de type « Linux » et de taille 200 MiB a été créée.
+
+Commande (m pour l'aide) : Disque /dev/sdb : 3,7 GiB, 3980394496 octets, 7774208 secteurs
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Type d'étiquette de disque : dos
+Identifiant de disque : 0x00000000
+
+Device     Boot  Start    End Sectors  Size Id Type
+/dev/sdb1         2048 104447  102400   50M  b W95 FAT32
+/dev/sdb2       104448 514047  409600  200M 83 Linux
+
+
+Commande (m pour l'aide) : La table de partitions a été altérée.
+Appel d'ioctl() pour relire la table de partitions.
+Synchronisation des disques.
+
+mkfs.fat 3.0.27 (2014-11-12)
+mke2fs 1.42.12 (29-Aug-2014)
+En train de créer un système de fichiers avec 204800 1k blocs et 51200 i-noeuds.
+UUID de système de fichiers=75246c98-6c87-40bb-893d-fbcfe18261c9
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25     complété                        
+Écriture des tables d'i-noeuds :  0/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25     complété
+
+
+Bienvenue dans fdisk (util-linux 2.25.2).
+Les modifications resteront en mémoire jusqu'à écriture.
+Soyez prudent avant d'utiliser la commande d'écriture.
+
+
+Commande (m pour l'aide) : Disque /dev/sdb : 3,7 GiB, 3980394496 octets, 7774208 secteurs
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Type d'étiquette de disque : dos
+Identifiant de disque : 0x84f1960f
+
+Device     Boot  Start    End Sectors  Size Id Type
+/dev/sdb1         2048 104447  102400   50M  b W95 FAT32
+/dev/sdb2       104448 514047  409600  200M 83 Linux
+
+
+Commande (m pour l'aide) : Numéro de partition (1,2, 2 par défaut) : 
+La partition 1 a été supprimée.
+
+Commande (m pour l'aide) : Partition 2 sélectionnée
+La partition 2 a été supprimée.
+
+Commande (m pour l'aide) : 2 : commande inconnue
+
+Commande (m pour l'aide) : 
+Disque /dev/sdb : 3,7 GiB, 3980394496 octets, 7774208 secteurs
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Type d'étiquette de disque : dos
+Identifiant de disque : 0x84f1960f
+
+
+
+Commande (m pour l'aide) : Type de partition
+   p   primaire (0 primaire, 0 étendue, 4 libre)
+   e   étendue (conteneur pour partitions logiques)
+Sélectionnez (p par défaut) : Numéro de partition (1-4, 1 par défaut) : Premier secteur (2048-7774207, 2048 par défaut) : Dernier secteur, +secteurs ou +taille{K,M,G,T,P} (2048-7774207, 7774207 par défaut) : 
+Une nouvelle partition 1 de type « Linux » et de taille 50 MiB a été créée.
+
+Commande (m pour l'aide) : Partition 1 sélectionnée
+Code Hexa (taper L pour afficher tous les codes) :Si vous avez créé ou modifié une partition DOS 6.x, veuillez consulter la documentation de fdisk pour de plus amples renseignements.
+Type de partition « Linux » modifié en « W95 FAT32 ».
+
+Commande (m pour l'aide) : Type de partition
+   p   primaire (1 primaire, 0 étendue, 3 libre)
+   e   étendue (conteneur pour partitions logiques)
+Sélectionnez (p par défaut) : Numéro de partition (2-4, 2 par défaut) : Premier secteur (104448-7774207, 104448 par défaut) : Dernier secteur, +secteurs ou +taille{K,M,G,T,P} (104448-7774207, 7774207 par défaut) : 
+Une nouvelle partition 2 de type « Linux » et de taille 200 MiB a été créée.
+
+Commande (m pour l'aide) : Disque /dev/sdb : 3,7 GiB, 3980394496 octets, 7774208 secteurs
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d'E/S (minimale / optimale) : 512 octets / 512 octets
+Type d'étiquette de disque : dos
+Identifiant de disque : 0x84f1960f
+
+Device     Boot  Start    End Sectors  Size Id Type
+/dev/sdb1         2048 104447  102400   50M  b W95 FAT32
+/dev/sdb2       104448 514047  409600  200M 83 Linux
+
+
+Commande (m pour l'aide) : La table de partitions a été altérée.
+Appel d'ioctl() pour relire la table de partitions.
+Synchronisation des disques.
+
+mkfs.fat 3.0.27 (2014-11-12)
+mke2fs 1.42.12 (29-Aug-2014)
+En train de créer un système de fichiers avec 204800 1k blocs et 51200 i-noeuds.
+UUID de système de fichiers=27dcf626-6bbf-47f4-8f03-c5013f9f8707
+Superblocs de secours stockés sur les blocs : 
+	8193, 24577, 40961, 57345, 73729
+
+Allocation des tables de groupe :  0/25     complété                        
+Écriture des tables d'i-noeuds :  0/25     complété                        
+Création du journal (4096 blocs) : complété
+Écriture des superblocs et de l'information de comptabilité du système de
+fichiers :  0/25     complété
+

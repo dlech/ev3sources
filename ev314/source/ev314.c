@@ -1443,6 +1443,13 @@ int main( void )	{
 		ev314_motor_fd = 0;
 	}
 	
+	/* Set PIN5 of all imputs in low level mode */
+	
+	for ( i = 0; i < INPUTS; i++ )
+		Buf[i] = EV314_NXT_AMBIENT;
+		
+	write( ev314_DCM_fd, Buf, INPUTS );
+	
 	/* Closing access to DCM */
 	
 	if ( ev314_DCM_fd )	{

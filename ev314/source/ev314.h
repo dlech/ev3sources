@@ -11,6 +11,7 @@
 #define EV314_NB_MOTORS								4
 
 #define EV314_NXT_REFLECT							0x32		// Light sensor reflection mode (LED on)
+#define EV314_NXT_AMBIENT							0x30		// Light sensor ambient mode (LED off)
 
 #define EV314_MAX_CONTROL							10000		// Control signal ranges from -10000 to +10000
 

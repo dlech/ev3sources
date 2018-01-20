@@ -1,0 +1,111 @@
+ioctl[SIOCSIWAUTH]: Operation not supported
+WEXT auth param 4 value 0x0 - ioctl[SIOCGIWSCAN]: Resource temporarily unavailable
+ioctl[SIOCSIWSCAN]: Device or resource busy
+Initializing interface 'wlan0' conf '/etc/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/etc/wpa_supplicant.conf' -> '/etc/wpa_supplicant.conf'
+Reading configuration file '/etc/wpa_supplicant.conf'
+ap_scan=1
+ctrl_interface='/var/run/wpa_supplicant'
+Priority group 0
+   id=0 ssid='Cable Robotics'
+Initializing interface (2) 'wlan0'
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+EAPOL: External notification - portEnabled=0
+EAPOL: External notification - portValid=0
+SIOCGIWRANGE: WE(compiled)=22 WE(source)=21 enc_capa=0xf
+  capabilities: key_mgmt 0xf enc 0xf
+WEXT: Operstate: linkmode=1, operstate=5
+Own MAC address: 44:94:fc:ee:07:e7
+wpa_driver_wext_set_wpa
+wpa_driver_wext_set_key: alg=0 key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_wext_set_key: alg=0 key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_wext_set_key: alg=0 key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_wext_set_key: alg=0 key_idx=3 set_tx=0 seq_len=0 key_len=0
+wpa_driver_wext_set_countermeasures
+wpa_driver_wext_set_drop_unencrypted
+Setting scan request: 0 sec 100000 usec
+Using existing control interface directory.
+ctrl_iface bind(PF_UNIX) failed: Address already in use
+ctrl_iface exists, but does not allow connections - assuming it was leftover from forced program termination
+Successfully replaced leftover ctrl_iface socket '/var/run/wpa_supplicant/wlan0'
+Added interface wlan0
+RTM_NEWLINK: operstate=0 ifi_flags=0x1003 ([UP])
+RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+Wireless event: cmd=0x8b06 len=8
+State: DISCONNECTED -> SCANNING
+Starting AP scan (broadcast SSID)
+Trying to get current scan results first without requesting a new scan to speed up initial association
+Received 0 bytes of scan results (0 BSSes)
+Scan results: 0
+Selecting BSS from priority group 0
+No suitable AP found.
+Setting scan request: 0 sec 0 usec
+Starting AP scan (broadcast SSID)
+Scan timeout - try to get results
+Scan results: -1
+Failed to get scan results
+Failed to get scan results - try scanning again
+Setting scan request: 1 sec 0 usec
+Starting AP scan (broadcast SSID)
+Failed to initiate AP scan.
+Setting scan request: 10 sec 0 usec
+RTM_NEWLINK: operstate=0 ifi_flags=0x1003 ([UP])
+RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+Wireless event: cmd=0x8b19 len=8
+Scan results did not fit - trying larger buffer (8192 bytes)
+Received 8186 bytes of scan results (23 BSSes)
+Scan results: 23
+Selecting BSS from priority group 0
+0: b8:a3:86:e9:58:7b ssid='Cable Robotics' wpa_ie_len=0 rsn_ie_len=22 caps=0x11
+   selected based on RSN IE
+Trying to associate with b8:a3:86:e9:58:7b (SSID='Cable Robotics' freq=2437 MHz)
+Cancelling scan request
+WPA: clearing own WPA/RSN IE
+Automatic auth_alg selection: 0x1
+RSN: using IEEE 802.11i/D9.0
+WPA: Selected cipher suites: group 16 pairwise 16 key_mgmt 2 proto 2
+WPA: clearing AP WPA IE
+WPA: set AP RSN IE - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+WPA: using GTK CCMP
+WPA: using PTK CCMP
+WPA: using KEY_MGMT WPA-PSK
+WPA: Set own WPA IE default - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+No keys have been configured - skip key clearing
+wpa_driver_wext_set_drop_unencrypted
+State: SCANNING -> ASSOCIATING
+wpa_driver_wext_set_operstate: operstate 0->0 (DORMANT)
+WEXT: Operstate: linkmode=-1, operstate=5
+wpa_driver_wext_associate
+Setting authentication timeout: 10 sec 0 usec
+EAPOL: External notification - EAP success=0
+EAPOL: External notification - EAP fail=0
+EAPOL: External notification - portControl=Auto
+RSN: Ignored PMKID candidate without preauth flag
+RTM_NEWLINK: operstate=0 ifi_flags=0x1003 ([UP])
+RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+Wireless event: cmd=0x8b06 len=8
+RTM_NEWLINK: operstate=0 ifi_flags=0x1003 ([UP])
+RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+Wireless event: cmd=0x8b04 len=12
+RTM_NEWLINK: operstate=0 ifi_flags=0x1003 ([UP])
+RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+Wireless eveioctl[SIOCSIWAUTH]: Operation not supported
+WEXT auth param 4 value 0x0 - nt: cmd=0x8b1a len=22
+CTRL-EVENT-TERMINATING - signal 2 received
+Removing interface wlan0
+State: ASSOCIATING -> DISCONNECTED
+wpa_driver_wext_set_operstate: operstate 0->0 (DORMANT)
+WEXT: Operstate: linkmode=-1, operstate=5
+No keys have been configured - skip key clearing
+EAPOL: External notification - portEnabled=0
+EAPOL: External notification - portValid=0
+wpa_driver_wext_set_wpa
+wpa_driver_wext_set_drop_unencrypted
+wpa_driver_wext_set_countermeasures
+No keys have been configured - skip key clearing
+Cancelling scan request
+Cancelling authentication timeout
+WEXT: Operstate: linkmode=0, operstate=6
